@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sql-test-kit-example"
+version = "0.1.0"
+description = ""
+authors = ["victorlandeau <vlandeau@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sql_test_kit_example"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+sql-test-kit = "^0.3.3"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
